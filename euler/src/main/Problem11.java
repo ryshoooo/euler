@@ -137,7 +137,7 @@ public class Problem11 {
 
 	public static void main(String[] args) {
 
-		String fPath = "/Users/richardnemeth/workspace/euler/src/files/prob11.txt";
+		String fPath = "/Users/richardnemeth/git/euler/euler/src/files/prob11.txt";
 		int[][] intMatrix = readMatrixFromFile(fPath);
 		int maxR = getMaxFromRows(intMatrix);
 		int maxC = getMaxFromRows(transpose(intMatrix));
