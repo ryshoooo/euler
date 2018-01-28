@@ -36,7 +36,7 @@ public class Problem13 {
 		}
 	}
 
-	private static String reverse(String input) {
+	public static String reverse(String input) {
 
 		String res = "";
 
